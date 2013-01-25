@@ -2,4 +2,4 @@ h1. DuckDuckFallBack
 
 Chrome extension to add a Google button to the DuckDuckGo search results.
 
-Available on the Chrome Webstore: https://chrome.google.com/webstore/detail/duckduckfallback/bgghgnejijjooigfhkfmhophopjpmfpe
+Available on the "Chrome Webstore":https://chrome.google.com/webstore/detail/duckduckfallback/bgghgnejijjooigfhkfmhophopjpmfpe .
