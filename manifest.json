@@ -1,6 +1,9 @@
 {
 	"name": "DuckDuckFallback",
+    "description": "__MSG_description__",
 	"version": "1.0",
+	"manifest_version": 2,
+    "default_locale": "en",
 	"content_scripts": [
 		{
 			"matches": ["*://*.duckduckgo.com/*"],
@@ -8,6 +11,5 @@
 			"js": ["jquery.js", "add_google.js"]
 		}
 	],
-    "web_accessible_resources": ["icon_search.png"],
-	"manifest_version": 2
+    "web_accessible_resources": ["icon_search.png"]
 }
