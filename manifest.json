@@ -1,15 +1,15 @@
 {
-	"name": "DuckDuckFallback",
+    "name": "DuckDuckFallback",
     "description": "__MSG_description__",
-	"version": "0.12",
-	"manifest_version": 2,
+    "version": "0.12",
+    "manifest_version": 2,
     "default_locale": "en",
-	"content_scripts": [
-		{
-			"matches": ["*://*.duckduckgo.com/*"],
+    "content_scripts": [
+        {
+            "matches": ["*://*.duckduckgo.com/*"],
             "css": ["style.css"],
-			"js": ["jquery.js", "add_google.js"]
-		}
-	],
+            "js": ["jquery.js", "add_google.js"]
+        }
+    ],
     "web_accessible_resources": ["icon_search.png"]
 }
