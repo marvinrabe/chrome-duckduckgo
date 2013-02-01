@@ -4,8 +4,10 @@
 	"content_scripts": [
 		{
 			"matches": ["*://*.duckduckgo.com/*"],
+            "css": ["style.css"],
 			"js": ["jquery.js", "add_google.js"]
 		}
 	],
+    "web_accessible_resources": ["icon_search.png"],
 	"manifest_version": 2
 }

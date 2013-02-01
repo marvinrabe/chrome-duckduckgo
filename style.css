@@ -1,0 +1,18 @@
+.trig_search {
+    position: relative;
+    display: inline-block;
+    width: 1px;
+    height: 0;
+}
+
+#side .button .trig_search + a::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: url("chrome-extension://__MSG_@@extension_id__/icon_search.png") no-repeat left 0;
+    -webkit-background-size: 16px 34px;
+    background-size: 16px 34px;
+}
