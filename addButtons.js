@@ -1,9 +1,15 @@
 
-var searchField = document.getElementById("search_form_input");
-
-function getAddButtonFunction(searchQuery) {
+function getButtonFunction() {
 
     var sideBar = document.getElementById("side");
+    var searchField = document.getElementById("search_form_input");
+
+    // Return undefined if there is no search field or side bar
+    if (undefined == searchField || undefined == sideBar) {
+        return undefined;
+    }
+
+    var searchQuery = encodeURI(searchField.value);
 
     function addButton(link, message) {
         var label = chrome.i18n.getMessage(message);
@@ -30,9 +36,9 @@ function getAddButtonFunction(searchQuery) {
     return addButton;
 }
 
-if(undefined != searchField.value) {
-    var encodedSearchQuery = encodeURI(searchField.value);
-    var addButton = getAddButtonFunction(encodedSearchQuery)
+var addButton = getButtonFunction();
+
+if(undefined != addButton) {
     addButton('https://encrypted.google.com/search?q=', 'google');
 }
 
