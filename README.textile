@@ -1,9 +1,15 @@
 h1. DuckDuckFallBack
 
-Chrome extension to add a Google button to the DuckDuckGo search results.
+Chrome extension to add a Google search button to the DuckDuckGo results.
+
+Extends the DuckDuckGo search results with a button to switch easily to the Google search.
 
 Available on the "Chrome Webstore":https://chrome.google.com/webstore/detail/duckduckfallback/bgghgnejijjooigfhkfmhophopjpmfpe .
 
-h2. Thank you!
+h2. Legal stuff
 
-Magnifying Glass Icon by Dmitry Baranovskiy from The Noun Project.
+This is NOT an official DuckDuckGo extension.
+
+You can modify and redistribute it under the terms of the GNU general public license 3.
+
+Magnifying Glass icon by Dmitry Baranovskiy from The Noun Project.
