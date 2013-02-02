@@ -1,7 +1,12 @@
 {
     "name": "DuckDuckFallback",
     "description": "__MSG_description__",
-    "version": "0.12",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "version": "0.13",
     "manifest_version": 2,
     "default_locale": "en",
     "content_scripts": [

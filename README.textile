@@ -6,4 +6,5 @@ Available on the "Chrome Webstore":https://chrome.google.com/webstore/detail/duc
 
 h2. Thank you!
 
-Magnifying Glass Icon from The Noun Project
+Magnifying Glass Icon from The Noun Project.
+Designed by Dmitry Baranovskiy.
