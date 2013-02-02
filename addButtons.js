@@ -11,7 +11,7 @@ function getButtonFunction() {
 
     var searchQuery = encodeURI(searchField.value);
 
-    function addButton(link, message) {
+    return function(link, message) {
         var label = chrome.i18n.getMessage(message);
         var searchURL = link + searchQuery;
 
@@ -29,11 +29,9 @@ function getButtonFunction() {
         element.appendChild(link);
 
         // Prepend div before default DuckDuckGo buttons
-        sideBar.insertBefore(element,sideBar.childNodes[0]);
+        sideBar.insertBefore(element, sideBar.childNodes[0]);
 
     }
-
-    return addButton;
 }
 
 var addButton = getButtonFunction();

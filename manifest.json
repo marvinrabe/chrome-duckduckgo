@@ -6,7 +6,7 @@
         "48" : "icon48.png",
         "128" : "icon128.png"
     },
-    "version" : "0.13",
+    "version" : "1.0",
     "manifest_version" : 2,
     "default_locale" : "en",
     "content_scripts" : [
