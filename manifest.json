@@ -8,7 +8,7 @@
         {
             "matches": ["*://*.duckduckgo.com/*"],
             "css": ["style.css"],
-            "js": ["add_google.js"]
+            "js": ["addButtons.js"]
         }
     ],
     "web_accessible_resources": ["icon_search.png"]
