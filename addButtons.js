@@ -5,10 +5,6 @@ function getAddButtonFunction(searchQuery) {
 
     var sideBar = document.getElementById("side");
 
-    // Span class is needed for layout reasons
-    var icon = document.createElement("span");
-    icon.className = "trig_search";
-
     function addButton(link, message) {
         var label = chrome.i18n.getMessage(message);
         var searchURL = link + searchQuery;
@@ -23,10 +19,7 @@ function getAddButtonFunction(searchQuery) {
 
         // Create div
         var element = document.createElement("div");
-        element.className = "button";
-        // Trigger click if div was clicked
-        element.setAttribute("onclick", "this.childNodes[1].click()"); 
-        element.appendChild(icon);
+        element.className = "button fallback_button";
         element.appendChild(link);
 
         // Prepend div before default DuckDuckGo buttons
