@@ -1,7 +1,7 @@
 
 function getButtonFunction() {
 
-    var sideBar = document.getElementById("side");
+    var sideBar = document.getElementById("duckbar_static");
     var searchField = document.getElementById("search_form_input");
 
     // Return undefined if there is no search field or side bar
@@ -19,18 +19,17 @@ function getButtonFunction() {
 
         // Create link
         var link = document.createElement("a");
-        link.className = "button-link";
+        link.className = "zcm__link";
         link.setAttribute("href", searchURL); 
         link.appendChild(text);
 
         // Create div
-        var element = document.createElement("div");
-        element.className = "button fallback_button";
+        var element = document.createElement("li");
+        element.className = "zcm__item";
         element.appendChild(link);
 
-        // Prepend div before default DuckDuckGo buttons
-        sideBar.insertBefore(element, sideBar.childNodes[0]);
-
+        // Append li to duckbar
+        sideBar.appendChild(element);
     }
 }
 

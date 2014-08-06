@@ -3,6 +3,6 @@
         "message" : "Fügt einen Google Suche Button in die DuckDuckGo Ergebnisse ein."
     },
     "google" : {
-        "message" : "Auf Google suchen"
+        "message" : "Google Suche"
     }
 }
